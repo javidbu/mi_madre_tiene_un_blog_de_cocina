@@ -1,1 +1,8 @@
-theme: jekyll-theme-cayman
+title: Mi madre tiene un blog de cocina
+theme:
+cayman-blog:
+  date_format: "%Y-%m-%d"
+author: Javier Díaz Bustamante
+author_email: javidbu@gmail.com
+twitter:
+  username: javidbu
