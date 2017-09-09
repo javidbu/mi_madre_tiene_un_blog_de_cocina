@@ -8,5 +8,5 @@ author_email: javidbu@gmail.com
 twitter:
   username: javidbu
 google_analytics: UA-84065359-2
-gems:
+plugins:
   - jekyll-feed
