@@ -13,4 +13,4 @@ Bueno, pues no os aburro más, espero que os suscribáis todos y que dejéis un 
 
 <img src="{{ site.url }}/assets/img/vitaminando_el_blog.png" alt="La raclette nunca falla" style="width: 400px;margin-left: auto; margin-right: auto; display: block;"/>
 
-Por cierto, en la comida surgió una discusión, ¿vocotros qué preferís, __raclette__ o __fondue__?
+Por cierto, en la comida surgió una discusión, ¿vosotros qué preferís, __raclette__ o __fondue__?
