@@ -1,4 +1,5 @@
 title: Mi madre tiene un blog de cocina
+description: Blog de cocina, crítica culinaria y golosinas varias
 theme:
 cayman-blog:
   date_format: "%Y-%m-%d"
@@ -7,3 +8,5 @@ author_email: javidbu@gmail.com
 twitter:
   username: javidbu
 google_analytics: UA-84065359-2
+gems:
+  - jekyll-feed
