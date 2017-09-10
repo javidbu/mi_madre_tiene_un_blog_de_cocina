@@ -1,0 +1,11 @@
+{% if page.layout == 'post' %}
+<div style="display: block; width: auto; overflow: hidden;">
+  {% if page.previous.url %}
+    <a href="{{page.previous.url}}" style="display: block; width: 50%; float: left; margin: 1em 0;">&laquo; {{page.previous.title}}</a>
+  {% endif %}
+  {% if page.next.url %}
+    <a href="{{page.next.url}}" style="display: block; width: 50%; float: left; margin: 1em 0; text-align: right;">{{page.next.title}} &raquo;</a>
+  {% endif %}
+</div>
+</br>
+{% endif %}

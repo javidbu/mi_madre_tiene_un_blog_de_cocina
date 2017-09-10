@@ -7,6 +7,10 @@ layout: default
     {{ content }}
   </div>
 
+  {% include post-navigator.html %}
+
+
+
   {% if page.comments %}
     {% include disqus_comments.html %}
   {% endif %}
