@@ -3,6 +3,7 @@ layout: post
 title: "Tarta de queso al horno"
 categories: platos
 comments: true
+date: 2017-09-09 20:50:00
 ---
 
 Bueno, es verdad que no es domingo, pero mi madre hizo el otro día una [tarta de queso al horno](https://recetasdemaca.wordpress.com/2017/09/09/tarta-de-queso-caliente/) que está buenísima. Como podíais suponer, no me he resistido a hacerme una foto con semejante manjar, que está para morirse. Aquí la tenéis:

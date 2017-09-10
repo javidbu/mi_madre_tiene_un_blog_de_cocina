@@ -3,6 +3,7 @@ layout: post
 title: "Vitaminando el blog"
 categories: platos
 comments: true
+date: 2017-09-09 00:00:00
 ---
 
 ¡Hola a todos! He estado un poco ocupado hoy _vitaminando_ un poco el blog. Ahora podéis encontrar una sección de comentarios en la parte inferior de cada post, y también podéis suscribiros al blog con cualquier cliente de feeds. He estado intentando también crear una suscripción por email, pero no lo he conseguido. Si algún día me entero de cómo hacerlo os lo diré, y mientras tanto siempre podéis mandarme un mail para que os avise cada vez que publique algo.
