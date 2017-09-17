@@ -15,6 +15,10 @@
       {% assign page-title = site.title | escape %}
     {% endif %}
 
+    {% if page.title == 'last' %}
+    <meta http-equiv="refresh" content="0; url={{site.posts.first.url}}">
+    {% endif %}
+
     <title>{{ page-title }}</title>
 
     {% if site.plugins contains "jekyll-seo-tag" %}
