@@ -16,7 +16,7 @@ No es una denominación de origen, no os creáis. Se trata de un queso que se da
 
 Pues resulta que el queso Creo este es perfecto para preparar flanes, y para pasar un rato bien largo riéndose con la familia (todavía seguimos haciendo alguna que otra broma con el flan de queso Creo). El flan estaba bastante rico, muy cremoso, se movía de un lado al otro como en los anuncios de gelatina y tenía ese sabor especial que le da el queso Creo, que te llena la boca. La verdad es que como estaba muy rico tomamos bastante, nos [_engollipamos_](http://dle.rae.es/srv/fetch?id=FNrqyTQ) vaya (he aprendido esta palabra en la oficina, y tenía que usarla en algún momento. ¡Gracias Tole!).
 
-Para los que no lo sepáis, engolliparse significa atiborrarse, llenarse hasta el gaznate, y viene de la unión de engullir e hipar. De hecho, en Cádiz a la típica tortilla gorda y seca la llaman tortilla gollipona. Me siento un poco como un amigo mío, Edu, que siempre dice que _"divierte y enseña"_.
+Para los que no lo sepáis, engolliparse significa atiborrarse, llenarse hasta el gaznate, y viene de la unión de engullir e hipar. De hecho, en Cádiz a la típica tortilla gorda y seca la llaman tortilla gollipona. Me siento un poco como un amigo mío, Edu, que siempre dice que _"divierte y educa"_.
 
 Pues eso, que me enrollo, aquí tenéis la foto del flan de queso Creo, que creo que os gustará
 
