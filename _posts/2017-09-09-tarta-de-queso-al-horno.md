@@ -8,7 +8,7 @@ date: 2017-09-09 20:50:00
 
 Bueno, es verdad que no es domingo, pero mi madre hizo el otro día una [tarta de queso al horno](https://recetasdemaca.wordpress.com/2017/09/09/tarta-de-queso-caliente/) que está buenísima. Como podíais suponer, no me he resistido a hacerme una foto con semejante manjar, que está para morirse. Aquí la tenéis:
 
-<img src="{{ site.url }}/assets/img/tarta_de_queso_caliente.jpg" alt="La mejor tarta que os hayáis podido echar a la cara" style="width: 400px;margin-left: auto; margin-right: auto; display: block;"/>
+<img src="{{ site.url }}/assets/img/tarta_de_queso_caliente.jpg" alt="La mejor tarta que os hayáis podido echar a la cara" title="La mejor tarta que os hayáis podido echar a la cara" style="width: 400px;margin-left: auto; margin-right: auto; display: block;"/>
 
 Comerse un trozo de esta tarta es una sinfonía para los sentidos. A la vista es muy apetecible, como se puede ver en la foto del blog de mi madre. Al tacto, suave. Cuando está recién hecha toda la casa se inunda de ese olor tan apetecible, ese __olor a casa feliz__. Y por supuesto que cuando la pruebas, el gusto es excelente, el punto exacto de dulzor, el sabor perfecto del queso, la medida justa de grasa...
 

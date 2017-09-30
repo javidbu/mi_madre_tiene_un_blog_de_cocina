@@ -22,4 +22,4 @@ Pues nada, que a pesar de que me parece una red social basada en el egocentrismo
 
 Os dejo una foto mía comiendo unos triangulitos de queso camembert empanados con un poco de mermelada de frambuesa, estaban riquísimos! Si mi madre lo publica os pongo el link. ¡Un abrazo!
 
-<img src="{{ site.url }}/assets/img/instagram.png" alt="Triangulitos de camembert" style="width: 400px;margin-left: auto; margin-right: auto; display: block;"/>
+<img src="{{ site.url }}/assets/img/instagram.png" alt="Triangulitos de camembert" title="Triangulitos de camembert" style="width: 400px;margin-left: auto; margin-right: auto; display: block;"/>
