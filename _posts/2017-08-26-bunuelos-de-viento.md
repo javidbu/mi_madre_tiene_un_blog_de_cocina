@@ -4,6 +4,11 @@ title: "Buñuelos de viento"
 categories: platos
 comments: true
 date: 2017-08-26 00:00:00
+images:
+
+  - url: /assets/img/bunuelos_de_viento_2.jpg
+    alt: Los buñuelos estaban buenísimos
+    title: Los buñuelos estaban buenísimos
 ---
 
 ¡Arranca el blog con el primer post! Como mi madre está de vacaciones, estoy yo solo en casa a nivel supervivencia, así que he decidido regalaros un primer post, en el que voy a cocinar una receta del blog de mi madre, [buñuelos de viento](https://recetasdemaca.wordpress.com/2016/11/03/bunuelos-de-viento/) (los de la foto son míos)
