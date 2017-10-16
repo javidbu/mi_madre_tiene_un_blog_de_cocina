@@ -1,6 +1,6 @@
 ---
 layout: page
-title: last
+title: Last
 ---
 
 Redirecting to last post: [{{site.posts.first.title}}]({{site.posts.first.url}})
