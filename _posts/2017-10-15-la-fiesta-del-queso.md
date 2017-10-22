@@ -36,6 +36,6 @@ Me pongo a freír los triangulitos de queso y empiezan a llegar los invitados, a
 
 Esta vez sí que me he enrollado. Al final lo único que no salió accidentado fue la salsa de toffee de la tarta, que como no encontré en el blog de mi madre, la saqué de [este blog](http://divinacocina.hola.com/crema-de-toffee/). Era lo que más miedo me daba, pero si quemaba el caramelo o me salía mala sacaba la tarta sola y punto. Total, que salió bien, y aquí está la foto:
 
-<img src="{{ site.url }}/assets/img/la_fiesta_del_queso.jpg" alt="Salsa de Toffee" title="Salsa de Toffee" style="margin-left: auto; margin-right: auto; display: block;"/>
+<img src="{{ site.url }}/assets/img/la_fiesta_del_queso.jpg" alt="Salsa de Toffee" title="Salsa de Toffee" class="main_picture" style="width: 100%" />
 
 _P.S.: con las prisas no me hice foto comiendo, espero que lo entendáis. ¡Un abrazo!_

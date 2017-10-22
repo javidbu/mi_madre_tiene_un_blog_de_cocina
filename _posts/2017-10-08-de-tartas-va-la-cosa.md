@@ -26,6 +26,6 @@ La verdad es que en casa tenemos la teoría de que lo bueno de esta receta es el
 
 Pues nada, que no contentos con ello, para el domingo tuvimos también otra tarta, esta vez [de manzana](https://recetasdemaca.wordpress.com/2017/03/31/tarta-fina-de-manzana/), también publicada hace tiempo, pero como había dos cosas que celebrar, pues ha habido dos tartas. La verdad es que entre las dos prefiero la de zanahoria, pero como hacerse una foto con una tarta de 10 centímetros de alto no era muy cómodo, me he sacado la foto con la de manzana, pero os prometo que si este post llega a las 1000 visitas durante un mes, ¡hago otra vez la tarta de zanahoria y me saco una foto intentando hincarle el diente!
 
-<img src="{{ site.url }}/assets/img/de_tartas_va_la_cosa_2.jpg" alt="Tarta de manzana" title="Tarta de manzana" style="width: 400px;margin-left: auto; margin-right: auto; display: block;"/>
+<img src="{{ site.url }}/assets/img/de_tartas_va_la_cosa_2.jpg" alt="Tarta de manzana" title="Tarta de manzana" class="main_picture"/>
 
 _P.S.: He añadido fotos de las entradas a la página de inicio, aunque de momento solo he puesto las que tenia apaisadas. Mi padre opina que debería dejarla con las entradas completas, como en el de mi madre, pero a mi personalmente siempre me ha parecido muy incómodo. ¿Vosotros qué preferís?_

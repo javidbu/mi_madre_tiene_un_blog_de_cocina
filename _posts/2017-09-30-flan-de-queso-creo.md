@@ -21,4 +21,4 @@ Para los que no lo sepáis, engolliparse significa atiborrarse, llenarse hasta e
 
 Pues eso, que me enrollo, aquí tenéis la foto del flan de queso Creo, que creo que os gustará
 
-<img src="{{ site.url }}/assets/img/flan_de_queso_creo.png" alt="Un exquisito flan de queso, creo..." title="Un exquisito flan de queso, creo..." style="width: 400px;margin-left: auto; margin-right: auto; display: block;"/>
+<img src="{{ site.url }}/assets/img/flan_de_queso_creo.png" alt="Un exquisito flan de queso, creo..." title="Un exquisito flan de queso, creo..." class="main_picture"/>
