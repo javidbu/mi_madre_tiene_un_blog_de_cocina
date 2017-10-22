@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Buñuelos de viento"
+author: "Javier Díaz Bustamante"
 categories: platos
 comments: true
 date: 2017-08-26 00:00:00
@@ -29,6 +30,6 @@ La verdad es que al final ha sido bastante más fácil de lo que me esperaba, au
 
 Bueno, que me voy por las ramas, aquí os dejo una foto mía comiendo buñuelos. ¡Hasta el siguiente plato!
 
-<img src="{{ site.url }}/assets/img/bunuelos_de_viento_3.png" alt="Los buñuelos estaban buenísimos" title="Los buñuelos estaban buenísimos" style="width: 400px;margin-left: auto; margin-right: auto; display: block;"/>
+<img src="{{ site.url }}/assets/img/bunuelos_de_viento_3.png" alt="Los buñuelos estaban buenísimos" title="Los buñuelos estaban buenísimos" class="main_picture"/>
 
 _P.S.: No sabéis lo difícil que es hacerse una foto a uno mismo mientras comes..._

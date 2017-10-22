@@ -78,24 +78,7 @@
       {% assign page-tagline = page.tagline | escape  %}
     {% endif %}
 
-    <section class="page-header">
-      <h1 class="project-name">{{ page-title }}</h1>
-      <h2 class="project-tagline">{{ page-tagline }}</h2>
-      <!-- Post tagline -->
-      {% if page.layout == 'post' %}
-        <h2 class="project-date">
-        <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-          {% assign date_format = site.cayman-blog.date_format | default: "%b %-d, %Y" %}
-          {{ page.date | date: date_format }}
-        </time>
-        {% assign page_author = page.author | default: site.author | default: nil | escape %}
-        {% if page_author %}
-          • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page_author }}</span></span>
-        {% endif %}
-        </h2>
-      {% endif %}
-      <!-- End: Post tagline -->
-    </section>
+    <a href="{{ "/" | relative_url }}"><img src="{{ site.url }}/assets/img/site_header.png" style="width: 100%; margin-left: auto; margin-right: auto; display: block;"/></a>
 
     <section class="main-content">
 

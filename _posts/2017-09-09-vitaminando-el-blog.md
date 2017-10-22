@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Vitaminando el blog"
+author: "Javier Díaz Bustamante"
 categories: platos
 comments: true
 date: 2017-09-09 00:00:00
@@ -12,6 +13,6 @@ Aparte, también he añadido un sistema de _tracking_ gracias a Google Analytics
 
 Bueno, pues no os aburro más, espero que os suscribáis todos y que dejéis un montón de comentarios chulos, aquí os dejo una foto de la _raclette_ que comimos el domingo pasado, para despedir a Santi, que ya se ha vuelto a San Sebastián. ¡Un abrazo!
 
-<img src="{{ site.url }}/assets/img/vitaminando_el_blog.png" alt="La raclette nunca falla" title="La raclette nunca falla" style="width: 400px;margin-left: auto; margin-right: auto; display: block;"/>
+<img src="{{ site.url }}/assets/img/vitaminando_el_blog.png" alt="La raclette nunca falla" title="La raclette nunca falla" class="main_picture"/>
 
 Por cierto, en la comida surgió una discusión, ¿vosotros qué preferís, __raclette__ o __fondue__?
