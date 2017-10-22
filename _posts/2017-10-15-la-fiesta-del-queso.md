@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "La fiesta del queso"
+author: "Javier Díaz Bustamante"
 categories: platos
 comments: true
 date: 2017-10-15 23:39:33

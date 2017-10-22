@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Vitaminando el blog"
+author: "Javier Díaz Bustamante"
 categories: platos
 comments: true
 date: 2017-09-09 00:00:00

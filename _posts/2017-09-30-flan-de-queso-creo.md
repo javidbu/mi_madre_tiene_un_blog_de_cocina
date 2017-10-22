@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Flan de queso Creo"
+author: "Javier Díaz Bustamante"
 categories: platos
 comments: true
 date: 2017-09-30 16:13:07

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Instagram"
+author: "Javier Díaz Bustamante"
 categories: platos
 comments: true
 date: 2017-09-17 15:21:34

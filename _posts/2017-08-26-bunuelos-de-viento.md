@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Buñuelos de viento"
+author: "Javier Díaz Bustamante"
 categories: platos
 comments: true
 date: 2017-08-26 00:00:00

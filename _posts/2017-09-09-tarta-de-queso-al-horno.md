@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Tarta de queso al horno"
+author: "Javier Díaz Bustamante"
 categories: platos
 comments: true
 date: 2017-09-09 20:50:00

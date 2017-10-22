@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "De tartas va la cosa"
+author: "Javier Díaz Bustamante"
 categories: platos
 comments: true
 date: 2017-10-08 23:27:26
