@@ -11,6 +11,8 @@ instagram:
   username: mimadretieneunblogdecocina
 facebook:
   page: MiMadreTieneUnBlogDeCocina
+telegram:
+  channel: mimadretieneunblogdecocina
 google_analytics: UA-84065359-2
 plugins:
   - jekyll-feed
