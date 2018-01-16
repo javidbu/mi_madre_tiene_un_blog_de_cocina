@@ -1,0 +1,10 @@
+---
+---
+
+{
+    "url": "{{ site.url }}{{ site.posts.first.url }}",
+    "title": "{{ site.posts.first.title }}",
+    "image_urls": [
+        {% for image in site.posts.first.images %}"{{ site.url }}{{ image.url }}",{% endfor %}
+    ],
+}
