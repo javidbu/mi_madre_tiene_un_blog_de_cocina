@@ -2,6 +2,17 @@
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
   <head>
+    {% if site.google_analytics %}
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', '{{ site.google_analytics }}');
+      </script>
+    {% endif %}
 
     <!-- Non social metatags -->
     <meta charset="utf-8">
@@ -89,60 +100,48 @@
 
         <!-- Github icon -->
         <span class="my-span-icon">
-          <a href="{{ site.github.owner_url }}" aria-label="GitHub" title="GitHub" target="_blank">
+          <a href="{{ site.github.owner_url }}" aria-label="GitHub" title="GitHub" target="_blank"  onclick="gtag('event', 'newsletter', {'event_category': 'engagement','event_label': 'github'});">
             <svg class="my-svg-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
           </a>
         </span>
 
         <!-- Twitter icon -->
         <span class="my-span-icon">
-          <a href="https://twitter.com/{{ site.twitter.username }}" aria-label="Twitter" title="Twitter" target="_blank">
+          <a href="https://twitter.com/{{ site.twitter.username }}" aria-label="Twitter" title="Twitter" target="_blank"  onclick="gtag('event', 'newsletter', {'event_category': 'engagement','event_label': 'twitter'});">
             <svg class="my-svg-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.066 9.645c.183 4.04-2.83 8.544-8.164 8.544-1.622 0-3.131-.476-4.402-1.291 1.524.18 3.045-.244 4.252-1.189-1.256-.023-2.317-.854-2.684-1.995.451.086.895.061 1.298-.049-1.381-.278-2.335-1.522-2.304-2.853.388.215.83.344 1.301.359-1.279-.855-1.641-2.544-.889-3.835 1.416 1.738 3.533 2.881 5.92 3.001-.419-1.796.944-3.527 2.799-3.527.825 0 1.572.349 2.096.907.654-.128 1.27-.368 1.824-.697-.215.671-.67 1.233-1.263 1.589.581-.07 1.135-.224 1.649-.453-.384.578-.87 1.084-1.433 1.489z"/></svg>
           </a>
         </span>
 
         <!-- Instagram icon -->
         <span class="my-span-icon">
-          <a href="https://instagram.com/{{ site.instagram.username }}" aria-label="Instagram" title="Instagram" target="_blank">
+          <a href="https://instagram.com/{{ site.instagram.username }}" aria-label="Instagram" title="Instagram" target="_blank"  onclick="gtag('event', 'newsletter', {'event_category': 'engagement','event_label': 'instagram'});">
             <svg class="my-svg-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M14.829 6.302c-.738-.034-.96-.04-2.829-.04s-2.09.007-2.828.04c-1.899.087-2.783.986-2.87 2.87-.033.738-.041.959-.041 2.828s.008 2.09.041 2.829c.087 1.879.967 2.783 2.87 2.87.737.033.959.041 2.828.041 1.87 0 2.091-.007 2.829-.041 1.899-.086 2.782-.988 2.87-2.87.033-.738.04-.96.04-2.829s-.007-2.09-.04-2.828c-.088-1.883-.973-2.783-2.87-2.87zm-2.829 9.293c-1.985 0-3.595-1.609-3.595-3.595 0-1.985 1.61-3.594 3.595-3.594s3.595 1.609 3.595 3.594c0 1.985-1.61 3.595-3.595 3.595zm3.737-6.491c-.464 0-.84-.376-.84-.84 0-.464.376-.84.84-.84.464 0 .84.376.84.84 0 .463-.376.84-.84.84zm-1.404 2.896c0 1.289-1.045 2.333-2.333 2.333s-2.333-1.044-2.333-2.333c0-1.289 1.045-2.333 2.333-2.333s2.333 1.044 2.333 2.333zm-2.333-12c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.958 14.886c-.115 2.545-1.532 3.955-4.071 4.072-.747.034-.986.042-2.887.042s-2.139-.008-2.886-.042c-2.544-.117-3.955-1.529-4.072-4.072-.034-.746-.042-.985-.042-2.886 0-1.901.008-2.139.042-2.886.117-2.544 1.529-3.955 4.072-4.071.747-.035.985-.043 2.886-.043s2.14.008 2.887.043c2.545.117 3.957 1.532 4.071 4.071.034.747.042.985.042 2.886 0 1.901-.008 2.14-.042 2.886z"/></svg>
           </a>
         </span>
 
         <!-- Facebook icon -->
         <span class="my-span-icon">
-          <a href="https://www.facebook.com/{{ site.facebook.page }}" aria-label="Facebook" title="Facebook" target="_blank">
+          <a href="https://www.facebook.com/{{ site.facebook.page }}" aria-label="Facebook" title="Facebook" target="_blank" onclick="gtag('event', 'newsletter', {'event_category': 'engagement','event_label': 'facebook'});">
             <svg class="my-svg-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm3 8h-1.35c-.538 0-.65.221-.65.778v1.222h2l-.209 2h-1.791v7h-3v-7h-2v-2h2v-2.308c0-1.769.931-2.692 3.029-2.692h1.971v3z"/></svg>
           </a>
         </span>
 
         <!-- Contact icon -->
           <span class="my-span-icon">
-            <a href="mailto:{{ site.author_email }}" aria-label="Email" title="Email" target="_blank">
+            <a href="mailto:{{ site.author_email }}" aria-label="Email" title="Email" target="_blank"  onclick="gtag('event', 'newsletter', {'event_category': 'engagement','event_label': 'email'});">
               <svg class="my-svg-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 .02c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.99 6.98l-6.99 5.666-6.991-5.666h13.981zm.01 10h-14v-8.505l7 5.673 7-5.672v8.504z"/></svg>
             </a>
           </span>
 
         <!-- Telegram icon -->
           <span class="my-span-icon">
-            <a href="https://t.me/{{ site.telegram.channel }}" aria-label="Telegram" title="Telegram" target="_blank">
-              <svg class="my-svg-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="m 22.988341,7.3818754 c 0.622652,1.484788 0.957927,3.0174706 0.957927,4.6459466 0,1.628476 -0.335275,3.161161 -0.957927,4.645948 -0.622653,1.484788 -1.484788,2.730093 -2.538508,3.831709 -1.05372,1.05372 -2.346921,1.915854 -3.831709,2.538508 -1.484787,0.622652 -3.017472,0.957927 -4.645948,0.957927 -1.628475,0 -3.1611591,-0.335275 -4.6459471,-0.957927 -1.484787,-0.622654 -2.730092,-1.484788 -3.831709,-2.538508 -1.05372,-1.05372 -1.9158551,-2.346921 -2.53850762,-3.831709 -0.6226525,-1.484787 -0.957927,-3.017472 -0.957927,-4.645948 0,-1.628476 0.3352745,-3.1611586 0.957927,-4.6459466 0.62265252,-1.484787 1.48478762,-2.730092 2.53850762,-3.831709 1.05372,-1.05372 2.346922,-1.915855 3.831709,-2.538508 1.484788,-0.62265201 3.0174721,-0.95792701 4.6459471,-0.95792701 1.628476,0 3.161161,0.335275 4.645948,0.95792701 1.484788,0.622653 2.730093,1.484788 3.831709,2.538508 1.05372,1.101617 1.867959,2.394818 2.538508,3.831709 z M 15.851782,17.535904 17.815534,8.2919064 c 0.09579,-0.38317 0.04789,-0.670549 -0.14369,-0.862134 -0.191585,-0.191586 -0.383171,-0.191586 -0.670549,-0.09579 L 5.4582709,11.788341 c -0.239482,0.09579 -0.431067,0.191585 -0.52686,0.335274 -0.09579,0.143689 -0.09579,0.239482 -0.04789,0.335275 0.04789,0.09579 0.191585,0.191585 0.431068,0.239481 l 2.969574,0.910031 6.8491801,-4.3106716 c 0.191586,-0.143689 0.335274,-0.143689 0.431067,-0.09579 0.0479,0.04789 0.0479,0.09579 -0.04789,0.191585 L 9.9605379,14.47054 9.7210559,17.535908 c 0.191586,0 0.3831711,-0.09579 0.6226531,-0.287378 l 1.436891,-1.388995 2.969574,2.203233 c 0.622652,0.335275 0.957928,0.143689 1.101616,-0.52686 z"/></svg>
+            <a href="https://t.me/{{ site.telegram.channel }}" aria-label="Telegram" title="Telegram" target="_blank"  onclick="gtag('event', 'newsletter', {'event_category': 'engagement','event_label': 'telegram'});">
+              <svg class="my-svg-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;"><path d="M12,0c-6.626,0 -12,5.372 -12,12c0,6.627 5.374,12 12,12c6.627,0 12,-5.373 12,-12c0,-6.628 -5.373,-12 -12,-12Zm3.224,17.871c0.188,0.133 0.43,0.166 0.646,0.085c0.215,-0.082 0.374,-0.267 0.422,-0.491c0.507,-2.382 1.737,-8.412 2.198,-10.578c0.035,-0.164 -0.023,-0.334 -0.151,-0.443c-0.129,-0.109 -0.307,-0.14 -0.465,-0.082c-2.446,0.906 -9.979,3.732 -13.058,4.871c-0.195,0.073 -0.322,0.26 -0.316,0.467c0.007,0.206 0.146,0.385 0.346,0.445c1.381,0.413 3.193,0.988 3.193,0.988c0,0 0.847,2.558 1.288,3.858c0.056,0.164 0.184,0.292 0.352,0.336c0.169,0.044 0.348,-0.002 0.474,-0.121c0.709,-0.669 1.805,-1.704 1.805,-1.704c0,0 2.084,1.527 3.266,2.369Zm-6.423,-5.062l0.98,3.231l0.218,-2.046c0,0 3.783,-3.413 5.941,-5.358c0.063,-0.057 0.071,-0.153 0.019,-0.22c-0.052,-0.067 -0.148,-0.083 -0.219,-0.037c-2.5,1.596 -6.939,4.43 -6.939,4.43Z"/></svg>
 
             </a>
           </span>
 
       </footer>
     </section>
-
-    {% if site.google_analytics %}
-      <script type="text/javascript">
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-        ga('create', '{{ site.google_analytics }}', 'auto');
-        ga('send', 'pageview');
-      </script>
-    {% endif %}
   </body>
 </html>
