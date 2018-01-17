@@ -3,8 +3,6 @@
 
 {
     "url": "{{ site.url }}{{ site.posts.first.url }}",
-    "title": "{{ site.posts.first.title }}",
-    "image_urls": [
-        {% for image in site.posts.first.images %}"{{ site.url }}{{ image.url }}"{% endfor %}
-    ]
+    "title": "{{ site.posts.first.title }}"{% if site.posts.first.images %},
+    "image_url": "{{ site.url }}{{ site.posts.first.images.first.url }}"{% endif %}
 }
